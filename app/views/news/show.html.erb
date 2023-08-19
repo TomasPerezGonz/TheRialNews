@@ -1,0 +1,5 @@
+<h1><%= @news.title %></h1>
+<p><%= @news.content %></p>
+
+<%= link_to 'Edit', edit_news_path(@news) %> |
+<%= link_to 'Back', news_index_path %>
